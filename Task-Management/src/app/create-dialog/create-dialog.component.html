@@ -1,0 +1,10 @@
+<div class="dialog-content ovf-hdn bdr-rds-10">
+    <div class="dialog-title elps-text fs14px primary-font-regular">{{dialogTitle}}</div>
+    <div *ngIf="showCrossButton" class="dialog-close csr-hand"(click)="closeDialog();">&nbsp;</div>
+  <div class="dialog-body clr-02 ovf-hdn">
+    <ng-content></ng-content>
+    <div class="dialog-footer algn-cntr pd-v2" *ngIf="showOkButton">
+      <button *ngIf='showOkButton' (click)="closeDialog();" class="btn-03">{{okButtonText}}</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,74 @@
+.dialog-content {
+    position: fixed;
+    min-width: 380px;
+    max-width: 732px;
+    min-height: 300px;
+    max-height: 516px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-size: cover;
+    color: blue;
+    background-color: wheat;
+}
+
+.dialog-header {
+    height: 34px;
+    width: 95%;
+    color: white;
+    background: black;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.dialog-title {
+    padding: 0 4px 0 22px;
+    line-height: 34px;
+    margin: 10px 0px 0px 105px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.dialog-close {
+    position: absolute;
+    width: 32px;
+    height: 34px;
+    right: 8px;
+    top: 0;
+    background: url("/assets/images/close.png") no-repeat center;
+    background-size: 16px 16px;
+}
+
+.dialog-body {
+    /* background: $clr-11 url("/assets/images/common/bg-dialog.png") no-repeat center; */
+    background-size: cover;
+    height: calc(100% - 34px);
+    margin: 20px 0px 20px 50px;
+}
+
+.dialog-btn-primary {
+    background: black;
+    color: red;
+}
+
+.dialog-user .dialog-content {
+    width: 60%;
+    height: 68%;
+    min-height: 480px;
+}
+.ovf-hdn {
+    overflow: hidden;
+}
+
+.bdr-rds-10 {
+    border-radius: 20px;
+    
+}
+.btn-03{
+    color: white;
+    background: black;
+    font-size: 17px;
+    margin: 60px 0px 30px 77px;
+}
+

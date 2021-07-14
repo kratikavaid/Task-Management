@@ -1,0 +1,100 @@
+.btn-01{
+    color: white;
+    background: black;
+    font-size: 17px;
+    margin: 20px 0px 30px 1350px;
+
+}
+.btn-02{
+    color: white;
+    background: black;
+    font-size: 17px;
+    margin: 60px 0px 30px 154px;
+}
+.btn-03 {
+    margin:  0px 0px 30px 334px;
+    color: white;
+    background: black;
+    font-size: 17px;
+}
+.dialog-close {
+    position: absolute;
+    width: 32px;
+    height: 34px;
+    right: 8px;
+    top: 0;
+    background: url("/assets/images/close.png") no-repeat center;
+    background-size: 16px 16px;
+}
+.dialog-edit {
+    background: url("/assets/images/i-edit.png") no-repeat center;
+    background-size: 16px 16px;
+    width: 32px;
+}
+.card-avatar {
+    margin:10px 22px 0px 0px;
+}
+.example-container {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 25px 25px 0;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 50px;
+  }
+  
+  .example-list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    display: block;
+    height: 60px;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .example-box {
+    padding: 20px 10px;
+    border-bottom: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: move;
+    background: white;
+    font-size: 14px;
+    width: 321px;
+
+  }
+  
+  .cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .example-box:last-child {
+    border: none;
+  }
+  
+  .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+   .mat-content {
+       
+    max-height: 100px;
+
+   }
